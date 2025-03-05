@@ -9,10 +9,9 @@ import lombok.AllArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Item {
-    private String productId;
-    private String productName;
-    private int quantity;
-    private double unitPrice;
-    private String currency;
+public class ShippingAddress {
+    private String street;
+    private String city;
+    private String postalCode;
+    private String country;
 }
